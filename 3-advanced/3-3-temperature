@@ -1,0 +1,11 @@
+a = raw_input("Convert from Fahrenheit or Celsius (f/c): ")
+if a.startswith('f'):
+    c = input("Enter degrees Celsius: ")
+    f = (c*9)/5 + 32
+    print c, "deg. celsius =", f, "deg. fahrenheit"
+elif a.startswith('c'):
+    f = input("Enter degrees Fahrenheit: ")
+    c = (f-32)*5/9
+    print f, "deg. fahrenheit =", c, "deg. celsius"
+else:
+    print "Please type 'f' or 'c'."

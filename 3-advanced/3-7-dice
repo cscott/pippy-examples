@@ -1,0 +1,6 @@
+import random
+while True:
+    print "Care to try your luck?"
+    print "Red die:", random.choice(range(7))
+    print "White die:", random.choice(range(7))
+    raw_input("Press enter for another roll.")

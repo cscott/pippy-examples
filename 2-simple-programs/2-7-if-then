@@ -1,0 +1,12 @@
+for a in range(0, 40, 2):
+    if a <= 8:
+        print "Frodo lives", a
+
+for x in range(60, 100):
+    if x == 62:
+        print "x is", x
+    if x == 64:
+        print "Got it!"
+        break
+    if x == 67:
+        print "I never get here."

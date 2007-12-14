@@ -1,0 +1,4 @@
+print 144 / 12
+# be careful!
+print 145 / 12
+print 145.0 / 12

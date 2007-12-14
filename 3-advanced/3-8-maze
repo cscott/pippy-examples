@@ -1,0 +1,4 @@
+import random, sys
+
+for x in range(1000):
+    sys.stdout.write(random.choice(['/','\\']))

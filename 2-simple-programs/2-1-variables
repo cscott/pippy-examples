@@ -1,0 +1,3 @@
+y = 3
+x = 28 + y
+print "The number of days in May is", x

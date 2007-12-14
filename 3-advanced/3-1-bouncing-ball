@@ -1,0 +1,11 @@
+import pippy
+cols, rows = pippy.console.size()
+
+rows = rows - 1
+for i in range(5):
+    for y in range(rows) + range(rows-1, -1, -1):
+        pippy.console.clear()
+        for j in range(y):
+            print
+        print 'o'
+        pippy.wait()

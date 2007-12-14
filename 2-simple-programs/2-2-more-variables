@@ -1,0 +1,7 @@
+x = 1.05
+y = 300
+z = x * y
+print "Seats available", y
+print "Tickets available", z
+y = y + 1
+print "Overbooking point", y

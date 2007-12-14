@@ -1,0 +1,15 @@
+import pippy
+pippy.console.red()
+print 'R',
+pippy.console.green()
+print 'a',
+pippy.console.yellow()
+print 'i',
+pippy.console.blue()
+print 'n',
+pippy.console.magenta()
+print 'b',
+pippy.console.cyan()
+print 'o',
+pippy.console.black()
+print 'w'

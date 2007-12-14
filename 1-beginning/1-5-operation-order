@@ -1,0 +1,10 @@
+# execution order
+print 20 + 8 / 2
+print (20 + 8) / 2
+print 20 + ( 8 / 2 )
+
+print 30 + 15 * 2 - 3
+print (30 + 15) * 2 - 3
+print 30 + 15 * (2 - 3)
+print (30 + 15) * (2 - 3)
+print 30 + (15 * (2 - 3))

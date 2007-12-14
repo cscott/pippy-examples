@@ -1,0 +1,5 @@
+import random
+
+for i in range(5):
+    # note that the range does not include 7
+    print random.randrange(1,7)

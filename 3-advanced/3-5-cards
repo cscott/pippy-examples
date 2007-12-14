@@ -1,0 +1,16 @@
+import random
+
+deck = []
+for suit in [ " of hearts", " of diamonds",
+              " of clubs", " of spades" ]:
+    for number in [ "ace", "2", "3", "4", "5", "6",
+                    "7", "8", "9", "jack", "queen",
+                    "king" ]:
+        deck = deck + [ (number+suit) ]
+
+print deck[:3] # first three cards
+random.shuffle(deck)
+print deck[:3]
+
+print "Pick a card!",
+print random.choice(deck)
