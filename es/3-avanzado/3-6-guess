@@ -1,0 +1,19 @@
+import random
+import pippy
+R = random.randrange(1,100)
+
+print "Adivina un número entre 1 y 100!"
+N = input("Su número: ")
+i=1
+while (N!=R):
+    if N>R:
+        pippy.console.red()
+        print "Demasiado grande... trata otra vez"
+    else:
+        pippy.console.blue()
+        print "Demasiado pequeño.. trata otra vez"
+    pippy.console.black()
+    N = input("Su número: ")
+    i=i+1
+print "Correcto!  Necesitaste",i,"oportunidades"
+

@@ -1,0 +1,7 @@
+for i in [ 1, 2, 3, 5, 7 ]:
+    print i,
+print
+
+for word in [ "¡Hola","niños","del","mundo!" ]:
+    print word,
+print

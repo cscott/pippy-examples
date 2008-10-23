@@ -1,0 +1,6 @@
+import random
+while True:
+    print "¿Quisiera tratar su suerte?"
+    print "Dado rojo:", random.choice(range(7))
+    print "Dado blanco:", random.choice(range(7))
+    raw_input("Empuje enter para otro tiro.")

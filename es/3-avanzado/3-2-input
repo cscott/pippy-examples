@@ -1,0 +1,5 @@
+for x in range(5):
+    a = raw_input("Como se llama? ")
+    if a == '':
+        break
+    print "Hola,", a

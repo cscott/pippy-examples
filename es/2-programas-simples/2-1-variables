@@ -1,0 +1,3 @@
+y = 3
+x = 28 + y
+print "Mayo tiene", x, "dias."

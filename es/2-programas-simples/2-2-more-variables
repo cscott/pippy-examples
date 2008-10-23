@@ -1,0 +1,7 @@
+x = 1.05
+y = 300
+z = x * y
+print "Capacidad:", y
+print "Billetes disponible", z
+y = y + 1
+print "Punto de exceso:", y

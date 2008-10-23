@@ -1,0 +1,5 @@
+import random
+
+for i in range(5):
+    # el rango de números no incluyen el 7
+    print random.randrange(1,7)

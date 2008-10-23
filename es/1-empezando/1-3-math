@@ -1,0 +1,12 @@
+# suma
+print 12 + 12
+# sustracción
+print 12 - 9
+# multiplicación
+print 12 * 12
+# división
+print 144 / 12
+# exponenciación
+print 12 ** 2
+# operaciones combinadas
+print 3 * 5 - 7 + 2

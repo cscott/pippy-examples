@@ -1,0 +1,16 @@
+import random
+
+baraja = []
+for palo in [ " de corazones", " de rombos",
+              " de bastos", " de picas" ]:
+    for numero in [ "as", "2", "3", "4", "5", "6",
+                    "7", "8", "9", "sota", "reina",
+                    "rey" ]:
+        baraja = baraja + [ (numero+palo) ]
+
+print baraja[:3] # primera tres cartas
+random.shuffle(baraja)
+print baraja[:3]
+
+print "Escoge una carta!",
+print random.choice(baraja)
